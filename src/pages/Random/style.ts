@@ -10,18 +10,13 @@ export const Bg = styled.div`
   justify-content: center;
   background-image: url(${BgSvg});
   background-size: cover;
-  flex-wrap: wrap;
 `
-export const TItuloGame = styled.div`
-  width: 100vw;
-  text-align: center;
-  font-size: 30px;
-  `
+
 export const Container = styled.div`
 background-image: url(${BgHome});
   width: 100%;
   max-width: 1000px;
-  height: 600px;
+  height: 700px;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -32,10 +27,18 @@ background-image: url(${BgHome});
   img{
     width: 380px;
   }
+
+  &&& .log{
+    width: 23px;
+    cursor: pointer;
+    position: relative;
+    top: -70px;
+    left: 30px;
+  }
 `
 
 export const AnimationImg = styled.div`
-  animation: blink 6s;
+  animation: blink 2s;
 
   @keyframes blink {
     0% {
@@ -49,21 +52,21 @@ export const AnimationImg = styled.div`
 export const AlignText = styled.div`
     display: flex;
     align-items: center;
-    flex-direction: column-reverse;
+    flex-direction: column;
     width: 90%;
     height: 100%;
+    color: black;
 `
 
 export const TextAnimation = styled.div`
     background: #292929;
     color: white;
     border-radius: 10px;
-    height: 200px;
     max-width: 100%;
     font-size: 18px;
     text-align: justify;
     padding: 20px;
-    animation: blink 5.5s;
+    animation: blink 2s;
     width: 90%;
     @keyframes blink {
       0% {
@@ -84,5 +87,50 @@ export const ButtonText = styled.button`
       padding: 20px;
       cursor: pointer;
 `
+export const ContainerInput = styled.div`
+  width: 300px;
+  min-height: 50px;
+  margin-top: 25px;
+  border: 1px solid  #292929;
+  display: flex; 
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 20px;
+  background: #E6E6E8;
 
-
+  &&& .MuiFormControlLabel-root{
+    width: 100% !important;
+    padding-left: 10px;
+  }
+`
+export const ValidadeButton = styled.button`
+  background-color: rgb(130, 189, 2);
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 10px;
+  transition: all 0.2s;
+  margin-top: -30px;
+  outline: none;
+  &:hover{
+    background-color: #DFAE2C;
+    color: black;
+  }
+`
+export const RespostaCorreta = styled.div`
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: rgb(41,41,41, 0.5);
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 15px;
+`
+export const Time = styled.div`
+  position: relative;
+  top: -30px;
+  left: 70%;
+  width: 100px;
+`

@@ -6,7 +6,6 @@ import {
   AlignText,
   TextAnimation,
   ButtonText,
-  TItuloGame
 } from './styled';
 import Typist from 'react-typist';
 import AtExplode from 'assets/Imagens/at-explode.png';
@@ -22,9 +21,6 @@ const Apresentacao = () => {
   }
   return (
     <Bg>
-      <TItuloGame>
-        HELP ALLAN TURING!!!
-      </TItuloGame>
       {step1 ?
       
       <Container>

@@ -10,13 +10,8 @@ export const Bg = styled.div`
   justify-content: center;
   background-image: url(${BgSvg});
   background-size: cover;
-  flex-wrap: wrap;
 `
-export const TItuloGame = styled.div`
-  width: 100vw;
-  text-align: center;
-  font-size: 30px;
-  `
+
 export const Container = styled.div`
 background-image: url(${BgHome});
   width: 100%;
@@ -25,17 +20,18 @@ background-image: url(${BgHome});
   border-radius: 10px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  flex-direction: column;
   box-shadow: 0.5625rem 0.3125rem 1.25rem #EEEEEE, 0 0.125rem 0.3125rem #E4E4E4;
   border: solid 15px #edb176;
 
   img{
-    width: 380px;
+    width: 280px;
   }
 `
 
 export const AnimationImg = styled.div`
-  animation: blink 6s;
+  animation: blink 2s;
 
   @keyframes blink {
     0% {
@@ -58,8 +54,9 @@ export const TextAnimation = styled.div`
     background: #292929;
     color: white;
     border-radius: 10px;
-    height: 200px;
-    max-width: 100%;
+    min-height: 150px;
+    margin-bottom: 40px;
+    max-width: 80%;
     font-size: 18px;
     text-align: justify;
     padding: 20px;

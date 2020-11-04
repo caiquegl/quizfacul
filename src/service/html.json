@@ -1,0 +1,288 @@
+[
+  [
+    {
+      "id": 502,
+      "question": "Qual tag insere uma linha horizontalmente em sua página da web?",
+      "description": null,
+      "answers": {
+        "answer_a": "<hr>",
+        "answer_b": "<line direction=\"horizontal\">",
+        "answer_c": "<tr>",
+        "answer_d": "<line>"
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers_button": {
+        "answer_a_value": "answer_a",
+        "answer_b_value": "answer_b",
+        "answer_c_value": "answer_c",
+        "answer_d_value": "answer_d" 
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "HTML"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Easy"
+    }
+  ],
+  [
+    {
+      "id": 516,
+      "question": "Para criar uma caixa de combinação (caixa suspensa), qual tag você usará?",
+      "description": null,
+      "answers": {
+        "answer_a": "<select>",
+        "answer_b": "<list>",
+        "answer_c": "<input type=\"dropdown\">",
+        "answer_d": "Todas estão corretas"
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers_button": {
+        "answer_a_value": "answer_a",
+        "answer_b_value": "answer_b",
+        "answer_c_value": "answer_c",
+        "answer_d_value": "answer_d" 
+      },
+      "correct_answer": "answer_a",
+      "explanation": null,
+      "tip": null,
+      "tags": [
+        {
+          "name": "HTML"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Medium"
+    }
+  ],
+  [
+  {
+    "id": 483,
+    "question": "Qual é a tag HTML correta para inserir uma quebra de linha?",
+    "description": null,
+    "answers": {
+      "answer_a": "<break />",
+      "answer_b": "<nbsp>",
+      "answer_c": "<lb />",
+      "answer_d": "<br />"
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers_button": {
+      "answer_a_value": "answer_a",
+      "answer_b_value": "answer_b",
+      "answer_c_value": "answer_c",
+      "answer_d_value": "answer_d" 
+    },
+    "correct_answer": "answer_d",
+    "explanation": null,
+    "tip": null,
+    "tags": [
+      {
+        "name": "HTML"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Medium"
+  }],
+  [{
+    "id": 513,
+    "question": "Outlook Express é um _________",
+    "description": null,
+    "answers": {
+      "answer_a": "E-Mail Client",
+      "answer_b": "Browser",
+      "answer_c": "SearchEngine",
+      "answer_d": "Nenhum das alternativas está correta"
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers_button": {
+      "answer_a_value": "answer_a",
+      "answer_b_value": "answer_b",
+      "answer_c_value": "answer_c",
+      "answer_d_value": "answer_d" 
+    },
+    "correct_answer": "answer_a",
+    "explanation": null,
+    "tip": null,
+    "tags": [
+      {
+        "name": "HTML"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Easy"
+  }],
+  [{
+    "id": 548,
+    "question": "Qual das opções a seguir é usada para adicionar comentários de várias linhas no PHP?",
+    "description": null,
+    "answers": {
+      "answer_a": "//",
+      "answer_b": "/* */",
+      "answer_c": "{{ }}",
+      "answer_d": "{/ \\}"
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers_button": {
+      "answer_a_value": "answer_a",
+      "answer_b_value": "answer_b",
+      "answer_c_value": "answer_c",
+      "answer_d_value": "answer_d" 
+    },
+    "correct_answer": "answer_b",
+    "explanation": null,
+    "tip": null,
+    "tags": [
+      {
+        "name": "HTML"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Medium"
+  }],
+  [{
+    "id": 529,
+    "question": "A forma como o navegador exibe o objeto pode ser modificada por _____",
+    "description": null,
+    "answers": {
+      "answer_a": "attributes",
+      "answer_b": "modifiers",
+      "answer_c": "parameters",
+      "answer_d": "None of above"
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers_button": {
+      "answer_a_value": "answer_a",
+      "answer_b_value": "answer_b",
+      "answer_c_value": "answer_c",
+      "answer_d_value": "answer_d" 
+    },
+    "correct_answer": "answer_a",
+    "explanation": null,
+    "tip": null,
+    "tags": [
+      {
+        "name": "HTML"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Medium"
+  }],
+  [{
+    "id": 566,
+    "question": "Quando você precisa obter o valor ASCII de um caractere, qual das funções a seguir você precisará usar no PHP?",
+    "description": null,
+    "answers": {
+      "answer_a": "chr( );",
+      "answer_b": "val( );",
+      "answer_c": "ord( );",
+      "answer_d": ".asc( );"
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers_button": {
+      "answer_a_value": "answer_a",
+      "answer_b_value": "answer_b",
+      "answer_c_value": "answer_c",
+      "answer_d_value": "answer_d" 
+    },
+    "correct_answer": "answer_c",
+    "explanation": null,
+    "tip": null,
+    "tags": [
+      {
+        "name": "PHP"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Medium"
+  }],
+  [{
+    "id": 453,
+    "question": "Um arquivo de texto simples que informa ao navegador o que armazenar em cache é conhecido como ________.",
+    "description": null,
+    "answers": {
+      "answer_a": "Input Files",
+      "answer_b": "HTML File",
+      "answer_c": "A Manifest File",
+      "answer_d": "Output Files"
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers_button": {
+      "answer_a_value": "answer_a",
+      "answer_b_value": "answer_b",
+      "answer_c_value": "answer_c",
+      "answer_d_value": "answer_d" 
+    },
+    "correct_answer": "answer_b",
+    "explanation": null,
+    "tip": null,
+    "tags": [
+      {
+        "name": "HTML"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Medium"
+  }],
+  [{
+    "id": 516,
+    "question": "Para criar uma caixa de combinação (caixa suspensa), qual tag você usará?",
+    "description": null,
+    "answers": {
+      "answer_a": "<select>",
+      "answer_b": "<list>",
+      "answer_c": "<input type=\"dropdown\">",
+      "answer_d": "Todas estão corretas"
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers_button": {
+      "answer_a_value": "answer_a",
+      "answer_b_value": "answer_b",
+      "answer_c_value": "answer_c",
+      "answer_d_value": "answer_d" 
+    },
+    "correct_answer": "answer_a",
+    "explanation": null,
+    "tip": null,
+    "tags": [
+      {
+        "name": "HTML"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Medium"
+  }],
+  [{
+    "id": 457,
+    "question": "Qual atributo html é usado para fornecer um texto consultivo sobre um elemento ou seu conteúdo.",
+    "description": null,
+    "answers": {
+      "answer_a": "Dir",
+      "answer_b": "Title",
+      "answer_c": "Tooltip",
+      "answer_d": "Nenhum das alternativas está correta"
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers_button": {
+      "answer_a_value": "answer_a",
+      "answer_b_value": "answer_b",
+      "answer_c_value": "answer_c",
+      "answer_d_value": "answer_d"
+      
+    },
+    "correct_answer": "answer_a",
+    "explanation": null,
+    "tip": null,
+    "tags": [
+      {
+        "name": "HTML"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Medium"
+  }]
+]
