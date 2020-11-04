@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import {
   Bg,
   Container,
@@ -19,6 +19,8 @@ const Step2 = () => {
     }else{
       alert("Por favor, preciso que diga seu nome");
       let name: any = prompt('Qual é o seu nome?');
+      sessionStorage.setItem('name', name.toString());
+
     }
   };
 
