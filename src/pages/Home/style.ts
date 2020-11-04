@@ -42,7 +42,7 @@ export const Colum = styled.div`
   justify-content:space-around;
   flex-direction: column;
 `
-export const Button = styled.button`
+export const ButtonGeral = styled.button`
   width: 150px;
   height: 40px;
   border-radius: 10px;

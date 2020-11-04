@@ -22,7 +22,13 @@ export const Container = styled.div`
   justify-content: center;
   box-shadow: 0.5625rem 0.3125rem 1.25rem #EEEEEE, 0 0.125rem 0.3125rem #E4E4E4;
   border: solid 15px #edb176;
+  color: #fff;
 
+  &&& .header{
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+  }
   img{
     width: 380px;
   }

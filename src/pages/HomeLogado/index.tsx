@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Bg, Container, Titulo, ButtonGames, Colum, SlickButton, ColumLogin } from './style';
 import Grid from '@material-ui/core/Grid';
 import atHomeLogado from 'assets/Imagens/at-aplausos.png';
@@ -22,6 +22,7 @@ const useStyles = makeStyles((theme: Theme) =>
 );
 
 const HomeLogado = () => {
+  const [name] = useState<any>(sessionStorage.getItem('name'));
 
   const classes = useStyles();
 
@@ -48,6 +49,7 @@ const HomeLogado = () => {
             <img src={atHomeLogado} alt="Alan Turing" />
           </Grid>
           <Grid item xs md={6}>
+            <p className="header">Bem vindo <strong>{name}</strong></p>
             <Colum>
               <Titulo>Escolha a modalidade:</Titulo>
               <Slider {...settings}>
