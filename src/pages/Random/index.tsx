@@ -256,9 +256,15 @@ const Step2 = () => {
                 </>
               ))}
             </AlignText>
+            {!finish ? 
             <ValidadeButton onClick={() => validate()}>
               Validar resposta
             </ValidadeButton>
+            :
+            <ValidadeButton>
+              Validar resposta
+            </ValidadeButton>
+            }
           </Grid>
         </Grid>
       </Container>
